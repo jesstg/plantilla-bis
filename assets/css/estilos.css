@@ -1,0 +1,75 @@
+.fixa {
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    background-color: white;
+    border: skyblue 2px;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    width: 50px;
+}
+
+/* Pseudoclases boletín de noticias */
+.boletin input:focus,
+.boletin textarea:focus {
+    background-color: rgb(214, 230, 193);
+}
+
+.boletin input:required {
+    border: 3px solid rgb(252, 98, 137);
+}
+
+.boletin input:valid {
+    border: 3px solid rgb(141, 233, 99);
+}
+
+
+/* Estilos para el contenedor boletín de noticias */
+.boletin-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Estilos para el formulario de boletín de noticias */
+.boletin {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    font-family: Arial, sans-serif;
+    /* Agrega otros estilos según tus preferencias */
+}
+
+form.contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+ul.actions {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form.boletin {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#footer {
+    margin-top: 30px;
+}
+
+.boletin input[type="submit"] {
+    display: block;
+    /* Convertir el botón en un bloque */
+    margin: 0 auto;
+    /* Margen automático horizontal para centrarlo */
+    margin-top: 30px;
+}
